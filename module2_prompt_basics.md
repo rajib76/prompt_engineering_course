@@ -118,7 +118,7 @@ Let's look at the same request written three different ways:
 
 A widely used framework in prompt engineering is **CO-STAR**, introduced by **Sheila Teo** (GovTech Singapore, 2023). It won Singapore's first prompt engineering competition and is now one of the most cited frameworks for writing effective prompts.
 
-> *Credit: Sheila Teo, "How I Won Singapore's GPT-4 Prompt Engineering Competition" (2023). [Read the original article on Medium](https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41)*
+> *Credit: Sheila Teo, "How I Won Singapore's GPT-4 Prompt Engineering Competition" (2023). [Read the original article on Towards Data Science](https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41)*
 
 ```
 C — Context      (What background does the AI need?)
