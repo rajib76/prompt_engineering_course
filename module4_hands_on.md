@@ -28,7 +28,7 @@ Claude is an AI assistant made by Anthropic. You can use it for free!
 4. Verify your email if asked
 5. You're in! You'll see a text box where you can type your prompts
 
-> **Note for students under 13:** Ask a parent or guardian to help you set up the account, or use an account they already have.
+> **Note for users under 13:** Ask a parent or guardian to help you set up the account, or use an account they already have.
 
 ### What You'll See:
 - A large text box at the bottom — this is where you type your prompts
@@ -60,7 +60,7 @@ What are 5 interesting facts about black holes?
 
 Now try this more specific version:
 ```
-What are 5 mind-blowing facts about black holes that would surprise a high school student?
+What are 5 mind-blowing facts about black holes that would surprise a complete beginner?
 Present them as a numbered list and explain each fact in 1-2 sentences using simple language.
 ```
 
@@ -119,7 +119,7 @@ Now create study notes in the same style for: The Human Digestive System
 
 **Exercise 2b: Write Your Own Few-Shot**
 
-Think of something you've been studying in school (any subject).
+Think of something you've been learning about recently (any topic).
 1. Write 2 examples of how you want notes to look
 2. Ask Claude to create notes on a new topic using your examples
 
@@ -154,7 +154,7 @@ Think through this step by step, showing each calculation.
 **Exercise 3b: Decision Making**
 
 ```
-I'm trying to decide whether to join the school drama club or the soccer team.
+I'm trying to decide whether to pick up a new hobby like acting or join a local sports team.
 I love performing but I'm also pretty athletic. Drama meets Tuesdays and Thursdays
 and has a big spring performance. Soccer has games every Saturday and practices 3 days a week.
 
@@ -167,7 +167,7 @@ Think through the pros and cons step by step, then give me your recommendation.
 
 **Exercise 3c: Your Turn**
 
-Think of a real decision you're trying to make (school choice, which book to read, a project topic). Ask Claude to think through it step by step.
+Think of a real decision you're trying to make (a new hobby, which book to read, a project topic). Ask Claude to think through it step by step.
 
 ---
 
@@ -181,10 +181,10 @@ Think of a real decision you're trying to make (school choice, which book to rea
 
 ```
 You are a patient, enthusiastic science teacher who makes everything sound exciting
-and uses creative analogies. Your students are 8th graders.
+and uses creative analogies. Your audience is complete beginners with no science background.
 
 Explain why the sky is blue. Use at least one fun analogy and end with a "mind-blowing
-extension question" that students can think about.
+extension question" that learners can think about.
 ```
 
 ---
@@ -192,10 +192,10 @@ extension question" that students can think about.
 **Exercise 4b: The Career Counselor**
 
 ```
-You are an experienced career counselor who specializes in helping high school students
+You are an experienced career counselor who specializes in helping beginners
 explore future careers. You ask thoughtful questions and give honest, practical advice.
 
-I'm a 10th grader who loves art and also loves technology. I'm not sure what careers
+I love art and also love technology. I'm not sure what careers
 combine both. What should I consider?
 ```
 
@@ -241,7 +241,7 @@ Your audience is [describe who you are].
 Notice how this prompt has **3 clear layers** — system instruction, format rules, and user input. Try swapping the last line with any movie you like!
 
 ```
-You are a helpful assistant that writes fun, easy-to-read movie reviews for kids.
+You are a helpful assistant that writes fun, easy-to-read movie reviews for anyone.
 Always be enthusiastic and use simple language.
 
 When I give you a movie name, write a review using exactly this structure:
@@ -278,7 +278,7 @@ Rule 2: Give me exactly 3 arguments AGAINST the position
 Rule 3: For each argument, provide one piece of evidence or example
 Rule 4: End with one sentence telling me which side has stronger arguments and why
 
-Position: "School should start later in the morning for teenagers."
+Position: "Remote work is better than working from an office."
 ```
 
 ---
@@ -304,7 +304,7 @@ Create a prompt that uses:
 - **Few-Shot** (show an example of the study guide format you want)
 - **Instruction** (give specific rules about length, format, sections)
 
-Topic: Any subject you're currently studying in school
+Topic: Any subject you're currently learning about
 
 ---
 
@@ -315,7 +315,7 @@ Create a prompt that uses:
 - **Chain-of-Thought** (ask it to plan the story before writing it)
 - **Instruction** (specific requirements: word count, elements to include)
 
-Topic: A short story about a student who discovers they have an unexpected talent
+Topic: A short story about a person who discovers they have an unexpected talent
 
 ---
 
@@ -326,7 +326,7 @@ Create a prompt that:
 - Uses **Role** (a tutor who matches your style)
 - Uses **Chain-of-Thought** (step-by-step explanation)
 
-Topic: Something you've struggled to understand in school
+Topic: Something you've always struggled to understand
 
 ---
 
@@ -351,13 +351,13 @@ After completing the exercises, think about (or write your answers):
 Here are strong rewrites of those weak prompts:
 
 **Original:** "Write something about space."
-**Improved:** "You are an enthusiastic astronomy teacher. Write a 200-word passage for 8th grade students about the most mind-blowing fact about space. Use at least one analogy to help students relate to the scale of the universe."
+**Improved:** "You are an enthusiastic astronomy teacher. Write a 200-word passage for complete beginners about the most mind-blowing fact about space. Use at least one analogy to help the reader relate to the scale of the universe."
 
 **Original:** "Help me study."
-**Improved:** "Act as a study skills coach for a 9th grader. I have a history test in 2 days covering the causes and effects of the American Civil War. Give me a step-by-step 2-day study plan with specific activities for each session. Keep each session to 45 minutes."
+**Improved:** "Act as a study skills coach for a complete beginner. I have a test in 2 days covering the causes and effects of the American Civil War. Give me a step-by-step 2-day study plan with specific activities for each session. Keep each session to 45 minutes."
 
 **Original:** "Explain the American Revolution."
-**Improved:** "Act as a storytelling historian. Explain the causes of the American Revolution as if you're telling a dramatic story to a group of curious 7th graders who love action and conflict. Use 3-4 paragraphs, include key figures as 'characters,' and end with a cliffhanger leading up to the Declaration of Independence."
+**Improved:** "Act as a storytelling historian. Explain the causes of the American Revolution as if you're telling a dramatic story to a group of curious beginners who love action and conflict. Use 3-4 paragraphs, include key figures as 'characters,' and end with a cliffhanger leading up to the Declaration of Independence."
 
 ---
 
@@ -376,18 +376,18 @@ Here are strong rewrites of those weak prompts:
 Congratulations on completing the course! You now know:
 
 - What Generative AI and Language Models are
-- The building blocks of a great prompt (CRAFT framework)
+- The building blocks of a great prompt (CO-STAR framework)
 - 5 powerful prompt engineering patterns
 - How to combine patterns for the best results
 - How to iterate and refine your prompts
 
-These skills will help you use AI tools more effectively in school, creative projects, and beyond. Prompt engineering is one of the most valuable skills you can have in a world where AI is everywhere!
+These skills will help you use AI tools more effectively in your daily life, creative projects, and beyond. Prompt engineering is one of the most valuable skills you can have in a world where AI is everywhere!
 
 ---
 
 ## What's Next?
 
-- Try using these techniques in your everyday schoolwork
+- Try using these techniques in your everyday tasks and projects
 - Explore other AI tools (Gemini, ChatGPT, Perplexity)
 - Look up "advanced prompt engineering" to continue learning
 - Share what you've learned with friends and family!

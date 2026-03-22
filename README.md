@@ -63,3 +63,19 @@ By the end of this course, you will be able to:
 ---
 
 *Ready? Let's go! Start with [Module 1 →](module1_generative_ai.md)*
+
+---
+
+## References
+
+This course draws on the following publicly available frameworks and resources:
+
+| Framework / Concept | Source |
+|---------------------|--------|
+| **CO-STAR Framework** | Sheila Teo, GovTech Singapore (2023) — [How I Won Singapore's GPT-4 Prompt Engineering Competition](https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41) |
+| **Few-Shot Prompting** | Brown et al., OpenAI (2020) — [Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165) |
+| **Chain-of-Thought Prompting** | Wei et al., Google Brain (2022) — [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) |
+| **Zero-Shot Prompting** | Radford et al., OpenAI (2019) — [Language Models are Unsupervised Multitask Learners (GPT-2 Paper)](https://openai.com/research/better-language-models) |
+| **Claude AI (Hands-on Tool)** | Anthropic — [claude.ai](https://claude.ai) — [Terms of Service](https://www.anthropic.com/legal/consumer-terms) |
+
+> This course is an independent educational resource and is not affiliated with or endorsed by Anthropic, OpenAI, Google, or GovTech Singapore.

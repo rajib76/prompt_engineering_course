@@ -49,7 +49,7 @@ Examples:
 **What background information does the AI need?**
 
 Examples:
-- "...for a 7th grade science class"
+- "...for someone with no science background"
 - "...I am writing a story set in ancient Egypt"
 - "...I have no programming experience"
 
@@ -104,40 +104,44 @@ Let's look at the same request written three different ways:
 ---
 
 **Great Prompt:**
-> "Explain climate change to a 7th grader in 3 short paragraphs. Use a simple analogy to explain the greenhouse effect. Avoid technical jargon."
+> "Explain climate change to a complete beginner in 3 short paragraphs. Use a simple analogy to explain the greenhouse effect. Avoid technical jargon."
 
 *What happens:* The AI has clear instructions. It knows:
-- **Who** it's explaining to (a 7th grader)
+- **Who** it's explaining to (a complete beginner)
 - **How long** (3 short paragraphs)
 - **How** to explain it (simple analogy)
 - **What to avoid** (technical jargon)
 
 ---
 
-## 2.5 The CRAFT Framework
+## 2.5 The CO-STAR Framework
 
-Here's a simple framework to remember the key ingredients of a great prompt:
+A widely used framework in prompt engineering is **CO-STAR**, introduced by **Sheila Teo** (GovTech Singapore, 2023). It won Singapore's first prompt engineering competition and is now one of the most cited frameworks for writing effective prompts.
+
+> *Credit: Sheila Teo, "How I Won Singapore's GPT-4 Prompt Engineering Competition" (2023). [Read the original article on Medium](https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41)*
 
 ```
-C — Context      (Who/what is involved?)
-R — Role         (What role should the AI play?)
-A — Action       (What do you want it to do?)
-F — Format       (How should the output look?)
-T — Tone         (What style/voice should it use?)
+C — Context      (What background does the AI need?)
+O — Objective    (What do you want the AI to do?)
+S — Style        (What writing style should it use?)
+T — Tone         (What attitude or feeling should it have?)
+A — Audience     (Who is the output for?)
+R — Response     (What format should the output be in?)
 ```
 
-### Example using CRAFT:
+### Example using CO-STAR:
 
 | Element | Your Input |
 |---------|-----------|
-| **C**ontext | "I'm a 9th grader writing a history report on World War II" |
-| **R**ole | "Act as a history teacher" |
-| **A**ction | "Help me write an introduction paragraph" |
-| **F**ormat | "One paragraph, about 5 sentences" |
+| **C**ontext | "I'm a complete beginner writing a report on World War II" |
+| **O**bjective | "Help me write an introduction paragraph" |
+| **S**tyle | "Clear and factual, like a history book" |
 | **T**one | "Formal but easy to understand" |
+| **A**udience | "Someone with no prior knowledge of the war" |
+| **R**esponse | "One paragraph, about 5 sentences" |
 
 **Combined Prompt:**
-> "Act as a history teacher. I'm a 9th grader writing a history report on World War II. Help me write a formal but easy-to-understand introduction paragraph for my report. It should be about 5 sentences long."
+> "I'm a complete beginner writing a report on World War II. Help me write an introduction paragraph in a clear, factual style — formal but easy to understand — for someone with no prior knowledge of the war. Keep it to one paragraph, about 5 sentences."
 
 ---
 
@@ -223,7 +227,7 @@ Sometimes telling the AI what to avoid is just as important as telling it what t
 
 - A **prompt** is your instruction to the AI
 - Great prompts include: **Task, Context, Format, Tone, and Constraints**
-- Use the **CRAFT framework**: Context, Role, Action, Format, Tone
+- Use the **CO-STAR framework**: Context, Objective, Style, Tone, Audience, Response *(credit: Sheila Teo, GovTech Singapore, 2023)*
 - Avoid vague prompts, multiple unrelated questions, and forgetting your audience
 - **Iteration** (refining your prompts) is normal and often leads to better results
 - You can also tell the AI what **NOT** to do
@@ -232,7 +236,7 @@ Sometimes telling the AI what to avoid is just as important as telling it what t
 
 ## Your Turn!
 
-Rewrite these weak prompts using the CRAFT framework:
+Rewrite these weak prompts using the CO-STAR framework:
 
 1. "Write something about space."
 2. "Help me study."
@@ -246,7 +250,7 @@ For each one, think about: Who is asking? What format? What tone? What constrain
 
 ## Check Your Understanding
 
-1. What does CRAFT stand for?
+1. What does CO-STAR stand for?
 2. What is "iteration" in prompt engineering, and why is it useful?
 3. What's wrong with the prompt: "Tell me everything about animals"?
 

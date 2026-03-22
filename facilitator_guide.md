@@ -1,12 +1,12 @@
 # Facilitator Guide: Prompt Engineering Course
 
-*For teachers, parents, or anyone running this course with students*
+*For anyone facilitating or running this course*
 
 ---
 
 ## Overview
 
-This course is designed for middle and high school students with no prior AI or programming experience. It takes approximately 2 hours to complete and can be delivered as:
+This course is designed for complete beginners with no prior AI or programming experience. It takes approximately 2 hours to complete and can be delivered as:
 - A single 2-hour workshop
 - Four 30-minute sessions (one module per session)
 - Self-paced independent study
@@ -15,7 +15,7 @@ This course is designed for middle and high school students with no prior AI or 
 
 ## Materials Needed
 
-- Computer/tablet/phone with internet access (one per student, or shared)
+- Computer/tablet/phone with internet access (one per participant, or shared)
 - Access to [claude.ai](https://claude.ai) (free accounts)
 - Printed [Quick Reference Cheat Sheet](quick_reference_cheatsheet.md) (optional but helpful)
 - Whiteboard or projector for demonstrations
@@ -61,7 +61,7 @@ This course is designed for middle and high school students with no prior AI or 
 
 ---
 
-## Common Student Questions
+## Common Questions
 
 **"Can the AI lie to me?"**
 Yes! AI can generate incorrect information confidently. This is called a "hallucination." Always verify important facts with other sources. This is one reason chain-of-thought prompting helps — it makes the AI's reasoning visible so you can spot errors.
@@ -69,25 +69,25 @@ Yes! AI can generate incorrect information confidently. This is called a "halluc
 **"Will AI take my job someday?"**
 This is a great discussion topic! The skill of prompt engineering actually makes humans MORE valuable — because someone needs to direct and guide the AI. People who know how to use AI well are in high demand.
 
-**"Is it cheating to use AI for schoolwork?"**
-This depends on your teacher's policy. The key is: AI is a tool, like a calculator. Using it to do the thinking FOR you is cheating. Using it as a study aid, to check your work, or to help you understand a concept is different. Always ask your teacher.
+**"Is it cheating to use AI for work or assignments?"**
+This depends on the context and rules of your workplace or institution. The key is: AI is a tool, like a calculator. Using it to do the thinking FOR you without disclosure may be dishonest. Using it as a learning aid, to check your work, or to understand a concept is different. When in doubt, be transparent about its use.
 
 **"What if Claude says something inappropriate?"**
-Claude has safety guidelines and is designed to be helpful and harmless. If you ever get a response that seems off, just start a new conversation. If something concerns you, tell a teacher or parent.
+Claude has safety guidelines and is designed to be helpful and harmless. If you ever get a response that seems off, just start a new conversation. If something concerns you, flag it to the session facilitator.
 
 ---
 
 ## Facilitation Tips
 
-1. **Demo first** — Before students try each exercise, demonstrate it on a projector. Show the difference between a weak and strong prompt live.
+1. **Demo first** — Before participants try each exercise, demonstrate it on a projector. Show the difference between a weak and strong prompt live.
 
-2. **Embrace "bad" results** — When a prompt gives an unexpected result, use it as a teaching moment. Ask students: "What would you change about this prompt?"
+2. **Embrace "bad" results** — When a prompt gives an unexpected result, use it as a teaching moment. Ask the group: "What would you change about this prompt?"
 
-3. **Encourage sharing** — Have students share their favorite prompts and responses with the class. Peer learning is powerful.
+3. **Encourage sharing** — Have participants share their favorite prompts and responses with the group. Peer learning is powerful.
 
-4. **It's okay not to know** — If a student asks something you can't answer, model good behavior: "Let's ask Claude!" Then prompt it together.
+4. **It's okay not to know** — If someone asks something you can't answer, model good behavior: "Let's ask Claude!" Then prompt it together.
 
-5. **Watch for over-reliance** — Remind students that prompt engineering is a tool, not a replacement for thinking. The goal is to use AI as a powerful assistant, not as a brain replacement.
+5. **Watch for over-reliance** — Remind participants that prompt engineering is a tool, not a replacement for thinking. The goal is to use AI as a powerful assistant, not as a brain replacement.
 
 ---
 
@@ -96,23 +96,23 @@ Claude has safety guidelines and is designed to be helpful and harmless. If you 
 ### Formative (during course):
 - "Your Turn" exercises in each module
 - Verbal explanation: "Describe zero-shot prompting in your own words"
-- Peer review: Students share prompts and give feedback
+- Peer review: Participants share prompts and give feedback
 
 ### Summative (after course):
-- **Prompt Portfolio:** Students collect 5 of their best prompts from the lab, each annotated with which pattern they used and why
+- **Prompt Portfolio:** Participants collect 5 of their best prompts from the lab, each annotated with which pattern they used and why
 - **Challenge Project:** Use any combination of patterns to create something useful — a study guide, a creative story opener, a debate prep tool
-- **Teach-Back:** Students explain one pattern to a partner or small group
+- **Teach-Back:** Participants explain one pattern to a partner or small group
 
 ---
 
 ## Differentiating for Different Learners
 
-### For students who finish early:
+### For participants who finish early:
 - Explore combining 3+ patterns in a single prompt
 - Try writing a "meta-prompt" — a prompt that asks Claude to help you write better prompts
 - Investigate: Can you get Claude to refuse a bad prompt? What makes a prompt "bad"?
 
-### For students who need more support:
+### For participants who need more support:
 - Start with just zero-shot and role prompting
 - Work in pairs
 - Use the cheat sheet throughout
@@ -122,8 +122,8 @@ Claude has safety guidelines and is designed to be helpful and harmless. If you 
 
 ## Technical Notes
 
-- **Claude Free Tier Limits:** The free version of Claude has rate limits (number of messages per day). If students hit a limit, they can continue the next day or use a different browser/device.
-- **Account Age Requirements:** Claude requires users to be 13+. Students under 13 should use a parent/guardian account.
+- **Claude Free Tier Limits:** The free version of Claude has rate limits (number of messages per day). If participants hit a limit, they can continue the next day or use a different browser/device.
+- **Account Age Requirements:** Claude requires users to be 13+. Anyone under 13 should use a parent/guardian account.
 - **Offline Option:** If internet access is unavailable, exercises can be done as written planning activities (write the prompt, predict the response, discuss what you'd expect).
 
 ---

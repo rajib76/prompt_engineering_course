@@ -4,15 +4,18 @@
 
 ---
 
-## The CRAFT Framework
+## The CO-STAR Framework
+
+*Introduced by Sheila Teo, GovTech Singapore (2023) — winner of Singapore's first GPT-4 prompt engineering competition.*
 
 | Letter | Stands For | Question to Ask Yourself |
 |--------|-----------|--------------------------|
 | **C** | Context | What background does the AI need? |
-| **R** | Role | Should the AI play a specific persona? |
-| **A** | Action | What exactly do I want it to do? |
-| **F** | Format | How should the output look? |
-| **T** | Tone | What style or voice should it use? |
+| **O** | Objective | What exactly do I want it to do? |
+| **S** | Style | What writing style should it use? |
+| **T** | Tone | What attitude or feeling should it have? |
+| **A** | Audience | Who is the output for? |
+| **R** | Response | How should the output be formatted? |
 
 ---
 
@@ -32,10 +35,10 @@
 
 | Weak | Strong |
 |------|--------|
-| "Tell me about climate change." | "Explain climate change to a 7th grader in 3 short paragraphs using a simple analogy." |
+| "Tell me about climate change." | "Explain climate change to a complete beginner in 3 short paragraphs using a simple analogy." |
 | "Help with my essay." | "Review my essay intro and suggest 3 specific improvements to make it more engaging." |
-| "Summarize this." | "Summarize this article in 5 bullet points, each under 20 words, for a high school student." |
-| "Write a story." | "Write a 300-word mystery story for middle schoolers with a surprising twist ending." |
+| "Summarize this." | "Summarize this article in 5 bullet points, each under 20 words, for a complete beginner." |
+| "Write a story." | "Write a 300-word mystery story for a general audience with a surprising twist ending." |
 
 ---
 
@@ -50,7 +53,7 @@
 
 **For Tone:**
 - "in simple language"
-- "as if explaining to a 6th grader"
+- "as if explaining to a complete beginner"
 - "formally, like a report"
 - "in a fun, conversational way"
 - "without technical jargon"

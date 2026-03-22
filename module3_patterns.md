@@ -171,7 +171,7 @@ You ask the AI to **act as a specific person, character, or expert**. This shape
 ### Example 1: Expert Role
 
 **Prompt:**
-> "You are an experienced marine biologist who loves making science exciting for kids. Explain how dolphins communicate to a group of curious 6th graders."
+> "You are an experienced marine biologist who loves making science exciting and easy to understand. Explain how dolphins communicate to a group of curious beginners."
 
 **AI Response:**
 > "Alright ocean explorers, buckle up because dolphin communication is absolutely mind-blowing! 🐬
@@ -184,7 +184,7 @@ You ask the AI to **act as a specific person, character, or expert**. This shape
 ### Example 2: Historical Figure
 
 **Prompt:**
-> "You are Albert Einstein explaining, in simple terms, what made you come up with the idea of relativity. Speak as if you're talking to a curious high school student."
+> "You are Albert Einstein explaining, in simple terms, what made you come up with the idea of relativity. Speak as if you're talking to a curious person with no science background."
 
 ---
 
@@ -201,7 +201,7 @@ You ask the AI to **act as a specific person, character, or expert**. This shape
 > "Act as a debate coach. I'm preparing to argue that zoos should be banned. Give me the 3 strongest arguments for my position, along with likely counterarguments and how to respond to them."
 
 ### Key Insight
-Roles give the AI a **persona and perspective**. An answer from "a friendly 5th grade teacher" will be very different from an answer from "a Harvard professor" — even for the same question!
+Roles give the AI a **persona and perspective**. An answer from "a friendly patient teacher" will be very different from an answer from "a Harvard professor" — even for the same question!
 
 ---
 
@@ -223,7 +223,7 @@ You give the AI **very specific, structured instructions** — often with number
 > 1. **Main Theme** (2 sentences)
 > 2. **Main Characters** (bullet list with one-sentence descriptions)
 > 3. **Key Conflict** (1 paragraph)
-> 4. **Why Students Should Read It** (3 reasons in bullet points)
+> 4. **Why Everyone Should Read It** (3 reasons in bullet points)
 > Keep the total response under 300 words."
 
 ---
@@ -270,7 +270,7 @@ The most powerful prompts often **combine multiple patterns**. This is where pro
 ### Example: Role + Few-Shot + Chain-of-Thought
 
 **Prompt:**
-> "You are a patient and encouraging math tutor working with a 7th grader who struggles with fractions.
+> "You are a patient and encouraging math tutor working with a complete beginner who struggles with fractions.
 >
 > Here's how you explain things (examples of your style):
 > - You always start with a real-world analogy (like pizza slices)
@@ -280,7 +280,7 @@ The most powerful prompts often **combine multiple patterns**. This is where pro
 > Now explain, in your teaching style and step-by-step, how to add two fractions with different denominators. Use the problem: 1/3 + 1/4."
 
 *This combines:*
-- **Role prompting** (patient math tutor for a 7th grader)
+- **Role prompting** (patient math tutor for a complete beginner)
 - **Few-shot prompting** (examples of teaching style)
 - **Chain-of-thought** (step-by-step explanation)
 

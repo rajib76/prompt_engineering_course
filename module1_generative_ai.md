@@ -101,12 +101,12 @@ The same AI can give you wildly different answers depending on how you ask.
 The AI might give you a general science overview, a poem about the moon, or information about moon phases. You'll get *something*, but maybe not what you wanted.
 
 **Specific Prompt:**
-> "Explain the phases of the moon in simple terms that a 6th grader can understand, using an analogy with a flashlight and a ball."
+> "Explain the phases of the moon in simple terms that a complete beginner can understand, using an analogy with a flashlight and a ball."
 
 Now the AI knows:
 - **What topic:** moon phases
 - **How detailed:** simple terms
-- **For whom:** a 6th grader
+- **For whom:** a complete beginner
 - **How to explain it:** using a specific analogy
 
 You'll get a much more useful, targeted answer!
