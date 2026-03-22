@@ -1,6 +1,6 @@
 # Talk to AI: A Beginner's Guide to Prompt Engineering
 
-**A course for middle and high school students — no coding experience needed!**
+**A course for dummies — no coding experience needed!**
 
 ---
 
